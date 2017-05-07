@@ -9,7 +9,7 @@ using StudentsApi.Providers;
 
 namespace StudentsApi.Controllers
 {
-    public class StudentController : ApiController
+    public class StudentController : XController
     {
         // GET: api/Student
         public IEnumerable<Student> Get()
