@@ -239,11 +239,8 @@ namespace BankCredit
 
         private void button3_Click(object sender, EventArgs e)
         {
-
-
             String descriere = richTextBox2.Text;
             String doc = name2b.Text;
-
 
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://localhost:27445/");
